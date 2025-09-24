@@ -326,6 +326,10 @@ header nav .icons a:hover {
     line-height: 1.8;
 }
 
+.About-0 .text-0 p b {
+    color:#ff9800;
+}
+
 .About-0 .text-0 ul {
     display: flex;
     margin: 30px 0 20px;
@@ -1023,5 +1027,6 @@ header nav .icons a:hover {
         font-size: 15px;
         margin-bottom: 10px;
     }
+
 
 }

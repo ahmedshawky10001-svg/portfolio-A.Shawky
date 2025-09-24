@@ -524,6 +524,10 @@ header nav .icons a:hover {
     gap: 15px;
 }
 
+.contact-info p a {
+    color: #ccc0c0;
+}
+
 .contact-info i {
     color: #ff9800;
     font-size: 22px;
@@ -1030,3 +1034,4 @@ header nav .icons a:hover {
 
 
 }
+

@@ -1049,7 +1049,11 @@ header nav .icons a:hover {
         margin-bottom: 10px;
     }
 
-
+        .project-info a {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
 }
+
 
 

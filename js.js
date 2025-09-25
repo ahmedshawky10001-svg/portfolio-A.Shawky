@@ -7,9 +7,7 @@ window . onscroll = function(){
     }
 }
 
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.querySelector('nav section');
-
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-});
+let nav_links = document.getElementById("links")
+function open_colos_menu() {
+    nav_links.classList.toggle("Acteve")
+}

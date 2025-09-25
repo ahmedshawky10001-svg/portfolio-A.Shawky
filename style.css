@@ -22,6 +22,7 @@ html {
     scrollbar-color: #ff9800 #1b1b1b;
 }
 
+
 * {
     padding: 0;
     margin: 0;
@@ -304,7 +305,7 @@ header nav .icons a:hover {
 .About-0 .container {
     position: relative;
     z-index: 100;
-    height: 80vh;
+    height: 80%;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(25px);
@@ -344,7 +345,7 @@ header nav .icons a:hover {
 }
 
 .About-0 .text-0 p b {
-    color:#ff9800;
+    color: #ff9800;
 }
 
 .About-0 .text-0 ul {
@@ -566,6 +567,7 @@ header nav .icons a:hover {
     color: #ccc0c0;
     font-size: 16px;
     outline: none;
+    resize: none;
 }
 
 .contact-form input::placeholder,
@@ -573,10 +575,20 @@ header nav .icons a:hover {
     color: #999;
 }
 
-.contact-form button {
+.contact-form button.btn {
     align-self: flex-start;
+    border: none;
 }
 
+.contact-form button.btn:hover {
+    color: #ff9800;
+}
+
+.icon_menu,
+.close_menu,
+.links .logo {
+    display: none;
+}
 
 
 @media (max-width:1200px) {
@@ -605,6 +617,39 @@ header nav .icons a:hover {
 }
 
 @media (max-width:1100px) {
+    header nav .links{
+        position: fixed;
+        top: 0;
+        flex-direction: column;
+        width: 400px;
+        background-color: #000000;
+        height: 100vh;
+        left: -400px;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    header nav .links.Acteve{
+        left:0;
+    }
+    .close_menu{
+        display: block;
+        font-size: 28px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    .links .logo{
+        display:block;
+    }
+
+    .links  .logo-1{
+        width: 25%;
+    }
+    
+    .icon_menu{
+        display:block;
+    }
     .About-0 .text-0 h5 {
         font-size: 18px;
     }
@@ -659,6 +704,7 @@ header nav .icons a:hover {
 }
 
 @media (max-width:1050px) {
+
     header nav .logo-1 {
         width: 70px;
     }
@@ -681,39 +727,6 @@ header nav .icons a:hover {
 
     .menu-toggle {
         display: flex;
-    }
-
-    header nav section {
-        position: absolute;
-        /* nav {position: relative;} */
-        top: 60px;
-        right: -20px;
-        background: rgba(0, 0, 0, 0.9);
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 20px;
-        border-radius: 15px;
-        display: none;
-    }
-
-    header nav section.show {
-        display: flex;
-    }
-
-    header nav .links {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    header nav section a {
-        display: block;
-        margin: 0;
-    }
-
-    nav {
-        position: relative;
-        padding: 7px 30px;
     }
 
     .About-0 .text-0 h5 {
@@ -992,6 +1005,11 @@ header nav .icons a:hover {
 }
 
 @media (max-width:550px) {
+     header nav .links{
+        width: 100%;
+        left: -550px;
+     }
+    
     .hero .text-0 {
         width: 90%;
     }
@@ -1049,11 +1067,9 @@ header nav .icons a:hover {
         margin-bottom: 10px;
     }
 
-        .project-info a {
+    .project-info a {
         font-size: 15px;
         padding: 5px 10px;
     }
+
 }
-
-
-

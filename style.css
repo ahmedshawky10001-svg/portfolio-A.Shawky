@@ -627,6 +627,7 @@ header nav .icons a:hover {
         left: -400px;
         padding: 50px 0;
         text-align: center;
+        transition: .3s;
     }
 
     header nav .links.Acteve{
@@ -649,6 +650,7 @@ header nav .icons a:hover {
     
     .icon_menu{
         display:block;
+        font-size: 28px;
     }
     .About-0 .text-0 h5 {
         font-size: 18px;
@@ -722,6 +724,9 @@ header nav .icons a:hover {
     }
 
     header nav .icons a {
+        font-size: 20px;
+    }
+    .icon_menu{  
         font-size: 20px;
     }
 

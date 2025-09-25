@@ -834,7 +834,8 @@ header nav .icons a:hover {
 
     .About-0 .container {
         width: 90%;
-        padding: 0 40px 0 40px;
+        padding: 0 20px 0 20px;
+        height: 65vh;
     }
 
     .About-0 .text-0 {
@@ -852,7 +853,7 @@ header nav .icons a:hover {
 
     .About-0 .text-0 h2 {
         font-size: 35px;
-        margin: 25px 0 5px;
+        margin: 20px 0 20px;
     }
 
     .About-0 .text-0 h4 {
@@ -861,7 +862,7 @@ header nav .icons a:hover {
     }
 
     .About-0 .text-0 p {
-        line-height: 1.5;
+        line-height: 1.8;
     }
 
     .projects .title h5 {
@@ -926,12 +927,12 @@ header nav .icons a:hover {
 
     .About-0 .text-0 h2 {
         font-size: 30px;
-        margin: 20px 0 10px;
+        margin: 10px 0 10px;
     }
 
     .About-0 .text-0 h4 {
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .project-info h3 {
@@ -940,70 +941,6 @@ header nav .icons a:hover {
 
     .project-info p {
         margin-bottom: 40px;
-        line-height: 1.5;
-    }
-
-}
-
-@media (max-width:750px) {
-    .hero .text-0 {
-        width: 90%;
-    }
-
-    .hero .img-0 {
-        width: 55%;
-    }
-
-    .hero .text-0 h4 {
-        font-size: 20px;
-        margin-bottom: 5px;
-    }
-
-    .hero .text-0 h1 {
-        font-size: 30px;
-    }
-
-    .hero .text-0 h2 {
-        font-size: 20px;
-        margin-bottom: 5px;
-    }
-
-    .hero .text-0 p {
-        font-size: 16px;
-        margin: 7px 0 12px 0;
-        line-height: 1.5;
-    }
-
-    .hero .img-0 {
-        width: 60%;
-    }
-
-    .btn {
-        padding: 10px 25px;
-    }
-
-    .About-0 .text-0 h5 {
-        font-size: 16px;
-    }
-
-    .About-0 .text-0 h2 {
-        font-size: 30px;
-        margin: 20px 0 10px;
-    }
-
-    .About-0 .text-0 h4 {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
-    .project-info h3 {
-        font-size: 20px;
-        margin-bottom: 5px;
-    }
-
-    .project-info p {
-        font-size: 14px;
-        margin-bottom: 15px;
         line-height: 1.5;
     }
 
@@ -1048,13 +985,19 @@ header nav .icons a:hover {
         font-size: 16px;
     }
 
+    .About-0 .container {
+        width: 90%;
+        padding: 0 20px 0 20px;
+        height: 70vh;
+    }
+
     .About-0 .text-0 h5 {
         font-size: 16px;
     }
 
     .About-0 .text-0 h2 {
         font-size: 28px;
-        margin: 20px 0 10px;
+        margin: 10px 0 10px;
     }
 
     .About-0 .text-0 h4 {
@@ -1077,4 +1020,21 @@ header nav .icons a:hover {
         padding: 5px 10px;
     }
 
+}
+
+@media (max-width:380px){
+    .About-0 .container {
+        width: 90%;
+        padding: 0 20px 0 20px;
+        height: 78vh;
+    }
+
+    .About-0 .text-0 h5 {
+        font-size: 16px;
+    }
+
+    .About-0 .text-0 h2 {
+        font-size: 28px;
+        margin: 10px 0 10px;
+    }
 }
